@@ -4,6 +4,9 @@ if [[ $ANSIBLE_CLEANUP  =~ true || $ANSIBLE_CLEANUP =~ 1 || $ANSIBLE_CLEANUP =~ 
   # Uninstall Ansible
   apt-get purge ansible -y
 
+  # Remove sourcelist
+  rm -f /etc/apt/sources.list.d/ansible.list
+
   # Delete Ansible leftovers in home directory
   rm -rf ~/.ansible*
 fi
