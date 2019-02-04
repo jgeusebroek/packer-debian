@@ -5,6 +5,8 @@
   "hostname": "localhost",
   "domain": "",
 
+  "debian_version": "9",
+
   "cpus": "4",
   "disk_size": "20480",
   "memory": "1024",
