@@ -6,6 +6,7 @@
   "domain": "",
 
   "debian_version": "8",
+  "vmware_guest_os_type": "debian8_64Guest",
 
   "cpus": "4",
   "disk_size": "20480",
